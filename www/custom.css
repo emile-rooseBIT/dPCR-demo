@@ -1,0 +1,200 @@
+/* Main styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Navigation styling */
+  .navbar {
+    background-color: #2c3e50;
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+  }
+  
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  /* Box styling */
+  .box {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 20px;
+  }
+  
+  .box-primary .box-header {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .box-info .box-header {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .box-success .box-header {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #3498db;
+    border-color: #2980b9;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2471a3;
+  }
+  
+  .btn-success {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+  }
+  
+  .btn-success:hover {
+    background-color: #27ae60;
+    border-color: #219955;
+  }
+  
+  .btn-info {
+    background-color: #2980b9;
+    border-color: #2471a3;
+  }
+  
+  .btn-info:hover {
+    background-color: #2471a3;
+    border-color: #1f618d;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #6c757d;
+  }
+  
+  /* Help text styling */
+  .help-block {
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Data table styling */
+  .dataTables_wrapper {
+    padding: 10px 0;
+  }
+  
+  /* Tab styling */
+  .nav-tabs {
+    margin-bottom: 15px;
+  }
+  
+  .nav-tabs > li > a {
+    color: #2c3e50;
+  }
+  
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+  /* Citation styling */
+  .citation {
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  /* App module cards */
+  .app-card {
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .app-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .app-card.selected {
+    border-color: #3498db;
+    background-color: #ebf5fb;
+  }
+  
+  .app-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .app-card-description {
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Plot styling */
+  .plot-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  }
+  
+  /* Report panel styling */
+  .report-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .report-item.selected {
+    border-color: #2ecc71;
+    background-color: #eafaf1;
+  }
+  
+  /* Loading indicators */
+  .loading-spinner {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Tooltip styling */
+  .tooltip-inner {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #2c3e50;
+    font-size: 12px;
+  }
+
+
+
+
+  
+
